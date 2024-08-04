@@ -21,16 +21,6 @@ I'm studying IT in the univeristy of Almeria Im interested on cibersecurity and 
 <br/>  
 
 
-## Rapidfire  
-<table><tr><td valign="top" width="50%">
-
-- 🌱 I’m currently learning Kotlin, C# .Net   
-
-
-</td><td valign="top" width="50%">
-
-
-
 </td></tr></table>  
 
 <br/>  
