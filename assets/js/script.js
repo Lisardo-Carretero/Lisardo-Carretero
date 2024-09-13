@@ -146,6 +146,15 @@ function downloadbutton(flagId){
   } else if (flagId === 'spanishFlag') {
     selectedLanguage = 'es';
   }
-  const html = '<a href="cv/Lisardo-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">Descargar mi CV</a>';
+  const text = {
+    en: {
+      dt: "Download my CV"
+    },
+    es: {
+      dt: "Descargar mi CV"
+    }
+  };
+  const dt = text[selectedLanguage].dt;
+  const html = '<a href="cv/Lisardo-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">'+dt+'</a>';
   document.getElementById('download_button').innerHTML = html;
 }
