@@ -5,7 +5,7 @@ const texts = {
     navmenu_resume:"Resume",
     navmenu_skills:"Skills",
     navmenu_contact:"Contact",
-    pre_description_job: "I have always believed that learning is a continuous and exciting process. That's why I keep myself in constant training to develop new skills and perfect the existing ones. Currently, I am pursuing a master's degree in Computer Engineering, specializing in IoT and training in high-demand areas such as SAP.",
+    pre_description_job: "I have always believed that learning is a continuous and exciting process. That's why I keep myself in constant training to develop new skills and perfect the existing ones. Currently, I am pursuing a master's degree in Computer Engineering, specializing in IoT.",
     specialization: "Developer",
     about_description: "Hi! I'm a computer engineer passionate about transforming complex ideas into simple and effective solutions. My focus is on software development and cloud technology integration, areas where I not only find a constant challenge, but also an endless source of inspiration. \n\nSince I started my career, every project has been an opportunity to expand my knowledge and sharpen my skills. My approach is clear: I don't stop at obstacles, I face them with a curious and proactive mindset. \n\nMy experience, while still growing, is backed by an unwavering motivation to keep learning and a strong desire to contribute to teams where collaboration and innovation are key. I am constantly on the lookout for challenging environments where I can contribute my technical skills and, at the same time, absorb new knowledge.\n\nSIf there is one thing that defines me, it is my passion for technology and my commitment to creating solutions that not only work, but that surprise and excite. I'm ready for the next challenge, and I can't wait to see what opportunities the future will bring.",
     title_about:"About",
@@ -36,7 +36,7 @@ const texts = {
     navmenu_skills:"Habilidades",
     navmenu_contact:"Contacto",
     specialization: "Desarrollador",
-    pre_description_job: "Siempre he creído que el aprendizaje es un proceso continuo y emocionante.\n Por ello, me mantengo en constante formación para desarrollar nuevas habilidades y perfeccionar las existentes.\n Actualmente, estoy cursando un máster en Ingeniería Informática, especializándome en IoT y formándome en áreas de alta demanda, como SAP.",
+    pre_description_job: "Siempre he creído que el aprendizaje es un proceso continuo y emocionante.\n Por ello, me mantengo en constante formación para desarrollar nuevas habilidades y perfeccionar las existentes.\n Actualmente, estoy cursando un máster en Ingeniería Informática, especializándome en IoT lo cuál ha suponido una grata sorpresa.",
     title_about:"Sobre mí",
     title_resume:"Currículum",
     title_skills:"Habilidades",
@@ -155,6 +155,6 @@ function downloadbutton(flagId){
     }
   };
   const dt = text[selectedLanguage].dt;
-  const html = '<a href="cv/Lisardo-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">'+dt+'</a>';
+  const html = '<a href="cv/LisardoCarreteroColmenar-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">'+dt+'</a>';
   document.getElementById('download_button').innerHTML = html;
 }
