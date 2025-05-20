@@ -156,6 +156,6 @@ function downloadbutton(flagId){
     }
   };
   const dt = text[selectedLanguage].dt;
-  const html = '<a href="cv/LisardoCarreteroColmenar-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">'+dt+'</a>';
+  const html = '<a href="cv/CV_LisardoCarreteroColmenar-' + selectedLanguage + '.pdf" id="download-btn" class="btn btn-primary btn-lg" download="Mi-CV.pdf">'+dt+'</a>';
   document.getElementById('download_button').innerHTML = html;
 }
