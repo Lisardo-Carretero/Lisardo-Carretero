@@ -41,7 +41,7 @@ const texts = {
     title_about:"Sobre mí",
     title_resume:"Currículum",
     title_skills:"Habilidades",
-    description_skills:"Algunos de los lenguajes con los que he trabajado",
+    description_skills:"Algunos de los lenguajes en los que tengo experiencia",
     title_contact:"Contacto",
     month:"14 Enero 2000",
     birthday:"Fecha de nacimiento:",
