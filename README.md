@@ -2,7 +2,7 @@
 
 Desarrollador con foco en soluciones prácticas de software, especialmente en proyectos donde convergen **datos, visualización y sistemas conectados**.
 
-Actualmente estoy construyendo aplicaciones con una base fuerte en **TypeScript** y ampliando mi enfoque hacia **sistemas embebidos y microcontroladores**.
+Actualmente estoy construyendo aplicaciones con una base fuerte en **TypeScript** y **Python** y ampliando mi enfoque hacia **sistemas embebidos y microcontroladores**.
 
 ---
 
