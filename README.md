@@ -48,3 +48,5 @@ Además del desarrollo de aplicaciones, estoy profundizando en:
 - [RcDrift](https://github.com/Lisardo-Carretero/RcDrift) — Exploración y crecimiento en sistemas embebidos y microcontroladores (Espero porder soltarlo pronto).
 
 ---
+
+> Ice bear's personality is explosive 🐻‍❄️
